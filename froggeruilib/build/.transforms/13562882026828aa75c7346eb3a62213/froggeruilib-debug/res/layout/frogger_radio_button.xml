@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/focusable_split_button_bg"
+    android:focusable="true"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lefttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/brownpro_regular"
+            android:gravity="start"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/focusable_text"
+            android:layout_toLeftOf="@id/image_radio_btn"/>
+
+        <ImageView
+            android:id="@+id/image_radio_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bg_radio_btn_unchecked"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="froggerPickerStyle"/>
+    <color name="black_color">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="color_button_pressed">@color/purple_color</color>
+    <color name="color_emerald_green">#55d464</color>
+    <color name="color_grey">#6f7678</color>
+    <color name="color_light_grey">#F4F4F4</color>
+    <color name="color_radical_red">#ff2947</color>
+    <color name="dark_text">#2f3132</color>
+    <color name="frogger_picker_normal_txt_color">#c3c6c8</color>
+    <color name="green_color">@color/color_emerald_green</color>
+    <color name="light_gray">#e1e2e3</color>
+    <color name="manual_setup_label_color">@color/color_grey</color>
+    <color name="network_connection_error_color">@color/color_radical_red</color>
+    <color name="network_connection_footer_color">@color/color_grey</color>
+    <color name="neutral_acier_color">#c3c6c8</color>
+    <color name="picker_text_bg_color">#F4F2FA</color>
+    <color name="purple_color">#814EFA</color>
+    <color name="radio_btn_unchecked">#d4d4d4</color>
+    <color name="regional_setup_screen_bg_color">@color/neutral_acier_color</color>
+    <color name="ripple_color">#EE82EE</color>
+    <color name="spinner_focused_background">@color/purple_color</color>
+    <color name="spinner_normal_background">#F4F4F4</color>
+    <color name="spinner_text_focused">@color/color_light_grey</color>
+    <color name="spinner_text_normal">@color/purple_color</color>
+    <color name="switch_focus_color">#6039b3</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="text_black_color">@color/black_color</color>
+    <color name="ui_background_color_normal">#FBFBFB</color>
+    <color name="view_background_color">@color/purple_color</color>
+    <color name="welcome_background_color">#fbfbfb</color>
+    <color name="welcome_footer_color">@color/color_grey</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="b1_black_line_spacing">12dp</dimen>
+    <dimen name="b1_black_textsize">14sp</dimen>
+    <dimen name="b1_textsize_tap">9dp</dimen>
+    <dimen name="b2_acier_textsize">12sp</dimen>
+    <dimen name="custom_switch_height">24dp</dimen>
+    <dimen name="custom_switch_inner">18dp</dimen>
+    <dimen name="custom_switch_padding_24">24dp</dimen>
+    <dimen name="custom_switch_padding_3">3dp</dimen>
+    <dimen name="custom_switch_radius">12dp</dimen>
+    <dimen name="custom_switch_width">42dp</dimen>
+    <dimen name="frogger_focus_button_height">32dp</dimen>
+    <dimen name="frogger_focus_button_textsize">14sp</dimen>
+    <dimen name="h1_textsize">19sp</dimen>
+    <dimen name="h1_textsize_tap">14dp</dimen>
+    <dimen name="h2_acier_textsize">16sp</dimen>
+    <dimen name="l1_black_textsize">14dp</dimen>
+    <dimen name="l3_cemento_textsize">9dp</dimen>
+    <dimen name="picker_bg_radius">40dp</dimen>
+    <dimen name="picker_text_padding_bottom">8dp</dimen>
+    <dimen name="picker_text_padding_top">4dp</dimen>
+    <dimen name="picker_text_size_tap">38dp</dimen>
+    <dimen name="picker_text_size_tv">34dp</dimen>
+    <dimen name="radio_btn_height">20dp</dimen>
+    <dimen name="radio_btn_width">20dp</dimen>
+    <dimen name="radio_button_inside_padding">5dp</dimen>
+    <string name="app_name">FroggerUiLib</string>
+    <style name="FocusableButtonStyle">
+        <item name="android:textColor">@color/focusable_text</item>
+        <item name="android:background">@drawable/focusable_rounded_button</item>
+        <item name="android:fontFamily">@font/brownpro_bold</item>
+        <item name="android:textSize">@dimen/frogger_focus_button_textsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="FroggerLibB1Black">
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">@dimen/b1_black_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/b1_black_line_spacing</item>
+    </style>
+    <style name="FroggerLibB1StyleTap">
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">@dimen/b1_textsize_tap</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="FroggerLibB2Acier">
+        <item name="android:textColor">@color/welcome_footer_color</item>
+        <item name="android:textSize">@dimen/b2_acier_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+    </style>
+    <style name="FroggerLibB2Cemento">
+        <item name="android:textColor">@color/neutral_acier_color</item>
+        <item name="android:textSize">@dimen/b2_acier_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+    </style>
+    <style name="FroggerLibH1Style">
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">@dimen/h1_textsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/brownpro_bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="FroggerLibH1StyleTap">
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">@dimen/h1_textsize_tap</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/brownpro_bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="FroggerLibH2Acier">
+        <item name="android:textColor">@color/neutral_acier_color</item>
+        <item name="android:textSize">@dimen/h2_acier_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_bold</item>
+    </style>
+    <style name="FroggerLibL1StyleBlack">
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textSize">@dimen/l1_black_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+    </style>
+    <style name="FroggerLibL3StyleCemento">
+        <item name="android:textColor">#6f7678</item>
+        <item name="android:textSize">@dimen/l3_cemento_textsize</item>
+        <item name="android:fontFamily">@font/brownpro_regular</item>
+    </style>
+    <style name="FroggerPickerStyleTap">
+        <item name="pickerTextSize">@dimen/picker_text_size_tap</item>
+        <item name="pickerTextColor">@color/frogger_picker_normal_txt_color</item>
+        <item name="pickerVisibleItemsCount">7</item>
+        <item name="pickerFontFamily">@font/brownpro_regular</item>
+        <item name="pickerSelectedTextColor">@color/purple_color</item>
+        <item name="pickerSelectedTextColorFocussed">@color/white</item>
+        <item name="pickerSelectedTextBackgroundTintFocussed">@color/purple_color</item>
+    </style>
+    <style name="FroggerPickerStyleTv">
+        <item name="pickerTextSize">@dimen/picker_text_size_tv</item>
+        <item name="pickerTextColor">@color/frogger_picker_normal_txt_color</item>
+        <item name="pickerVisibleItemsCount">7</item>
+        <item name="pickerFontFamily">@font/brownpro_bold</item>
+        <item name="pickerSelectedTextColor">@color/purple_color</item>
+        <item name="pickerSelectedTextColorFocussed">@color/white</item>
+        <item name="pickerSelectedTextBackgroundTintFocussed">@color/purple_color</item>
+
+    </style>
+    <style name="FroggerWidget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+    <style name="FroggerWidget.Picker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+    </style>
+    <style name="FroggerWidget.Picker.FroggerPicker" parent="FroggerWidget.Picker">
+        <item name="pickerSolidColor">@android:color/transparent</item>
+        <item name="pickerDividerHeight">2dip</item>
+        <item name="pickerInternalLayout">@layout/frogger_picker_selected_text</item>
+        <item name="pickerInternalMinWidth">64dip</item>
+        <item name="pickerInternalMaxHeight">180dip</item>
+    </style>
+    <declare-styleable name="FroggerFocusButton">
+        <attr format="boolean" name="reverseFocus"/>
+    </declare-styleable>
+    <declare-styleable name="FroggerPicker">
+        <attr format="color|reference" name="pickerSolidColor"/>
+        <attr format="reference" name="pickerDivider"/>
+        <attr format="dimension" name="pickerDividerHeight"/>
+        <attr format="dimension" name="pickerDividersDistance"/>
+        <attr format="dimension" name="pickerInternalMinHeight"/>
+        <attr format="dimension" name="pickerInternalMaxHeight"/>
+        <attr format="dimension" name="pickerInternalMinWidth"/>
+        <attr format="dimension" name="pickerInternalMaxWidth"/>
+        <attr format="reference" name="pickerInternalLayout"/>
+        <attr format="reference" name="pickerVirtualButtonPressedDrawable"/>
+        <attr format="boolean" name="pickerDividerVisible"/>
+        <attr format="dimension" name="pickerTextSize"/>
+        <attr format="reference" name="pickerFontFamily"/>
+        <attr format="integer" name="pickerVisibleItemsCount"/>
+        <attr format="color" name="pickerTextColor"/>
+        <attr format="color" name="pickerSelectedTextColor"/>
+        <attr format="color" name="pickerSelectedTextColorFocussed"/>
+        <attr format="reference" name="pickerSelectedTextBackground"/>
+        <attr format="color" name="pickerSelectedTextBackgroundTintFocussed"/>
+
+    </declare-styleable>
+    <declare-styleable name="FroggerSplitButton">
+        <attr format="dimension" name="leftWidth"/>
+        <attr format="dimension" name="rightWidth"/>
+        <attr format="string" name="leftText"/>
+        <attr format="string" name="rightText"/>
+        <attr format="color" name="leftTextColor"/>
+        <attr format="color" name="rightTextColor"/>
+        <attr format="reference" name="leftBackground"/>
+        <attr format="reference" name="rightBackground"/>
+        <attr format="reference" name="backgroundColor"/>
+        <attr format="color" name="leftTextColorNormal"/>
+        <attr format="color" name="leftTextColorFocussed"/>
+        <attr format="color" name="rightTextColorNormal"/>
+        <attr format="color" name="rightTextColorFocussed"/>
+        <attr format="dimension" name="leftTextSize"/>
+        <attr format="dimension" name="rightTextSize"/>
+        <attr format="dimension" name="splitButtonPadding"/>
+        <attr format="string" name="text"/>
+        <attr format="color" name="textColor"/>
+        <attr format="reference" name="background"/>
+        <attr format="color" name="normalTextColor"/>
+        <attr format="color" name="focussedTextColor"/>
+        <attr format="dimension" name="buttonPadding"/>
+        <attr format="dimension" name="buttonTextSize"/>
+        <attr format="boolean" name="isStatusIndicator"/>
+    </declare-styleable>
+    <declare-styleable name="FroggerSwitchButton">
+        <attr format="reference" name="buttonBackground"/>
+        <attr format="color" name="textColorNormal"/>
+        <attr format="color" name="textColorFocussed"/>
+        <attr format="string" name="switchText"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="string" name="radioButtonText"/>
+        <attr format="dimension" name="radioBtnWidth"/>
+        <attr format="dimension" name="radioBtnHeight"/>
+        <attr format="dimension" name="switchButtonPadding"/>
+        <attr format="dimension" name="radioButtonPadding"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background_color1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/wifiIconBg"
+                android:layout_width="@dimen/_152dp"
+                android:layout_height="@dimen/_152dp"
+                android:src="@drawable/img_sync_icon_bg"
+                android:tint="@color/bg_color_red"
+                android:contentDescription="@null"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/wifiIcon"
+                android:layout_width="@dimen/_72dp"
+                android:layout_height="@dimen/_72dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_wifi"
+                android:layout_centerInParent="true"
+                android:tint="@color/icon_color_red"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/FroggerLibH1Style"
+            android:layout_width="@dimen/_1024dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_40dp"
+            android:textSize="@dimen/_38sp"
+            android:text="@string/disconnect_wifi_header" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            style="@style/FroggerLibB1Black"
+            android:layout_width="@dimen/_1024dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24dp"
+            android:textSize="@dimen/_28sp"
+            android:text="@string/disconnect_wifi_desc" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_80dp">
+
+            <com.logitech.videocollaboration.froggeruilib.FroggerFocusButton
+                android:id="@+id/forgetButton"
+                style="@style/FocusableButtonStyle"
+                android:layout_width="@dimen/_520dp"
+                android:layout_height="@dimen/_96dp"
+                android:layout_marginTop="@dimen/_40dp"
+                android:layout_marginHorizontal="@dimen/_40dp"
+                android:text="@string/rename_the_room"
+                android:textSize="@dimen/_28sp"/>
+
+            <com.logitech.videocollaboration.froggeruilib.FroggerFocusButton
+                android:id="@+id/cancelButton"
+                style="@style/FocusableButtonStyle"
+                android:layout_width="@dimen/_520dp"
+                android:layout_height="@dimen/_96dp"
+                android:layout_margin="@dimen/_40dp"
+                android:text="@string/change_seat_count"
+                android:textSize="@dimen/_28sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="@dimen/_96dp"
+        android:layout_height="@dimen/_96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_56dp"
+        android:layout_marginEnd="@dimen/_56dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_close_purple_24dp"
+        android:background="@drawable/round_white_with_shadow"
+        android:nextFocusDown="@+id/connectionButton"
+        android:nextFocusUp="@+id/changeSeatCountButton"/>
+
+</RelativeLayout>
+

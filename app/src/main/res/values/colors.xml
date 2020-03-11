@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="screen_background_color1">#fafafa</color>
+    <color name="bg_color_red">#22ff2947</color>
+    <color name="icon_color_red">#ff2947</color>
+    <color name="dark_text">#2f3132</color>
+    <color name="purple_color">#814efa</color>
+
+    <color name="grey_shadow_0">#00CCCCCC</color>
+    <color name="grey_shadow_1">#10CCCCCC</color>
+    <color name="grey_shadow_2">#20CCCCCC</color>
+    <color name="grey_shadow_3">#30CCCCCC</color>
+    <color name="grey_shadow_4">#50CCCCCC</color>
+
+    <color name="screen_background_color2">#fbfbfb</color>
+
+    <color name="connected_green">#55d464</color>
+    <color name="error_red">#ff2947</color>
+    <color name="error_red_tint">#15ff2947</color>
+    <color name="update_available_blue">#00b8fc</color>
+
+</resources>

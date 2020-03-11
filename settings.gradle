@@ -1,0 +1,2 @@
+include ':app', ':froggeruilib'
+rootProject.name='ResponsiveApp'

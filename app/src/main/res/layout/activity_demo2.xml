@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background_color2"
+    tools:context=".DemoActivity2"
+    android:padding="@dimen/_56dp">
+
+    <TextView
+        android:id="@+id/txt_screen_title"
+        style="@style/FroggerLibH1Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logitech_settings"
+        android:textSize="@dimen/_28sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_settings_tiles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_screen_title"
+        android:layout_above="@+id/btn_back_to_zoom"
+        android:layout_marginVertical="@dimen/_59dp"
+        tools:ignore="UnusedAttribute" />
+
+    <com.logitech.videocollaboration.froggeruilib.FroggerFocusButton
+        android:id="@+id/btn_back_to_zoom"
+        style="@style/FocusableButtonStyle"
+        android:layout_width="@dimen/_384dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_zoom_rooms"
+        android:textSize="@dimen/_20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_4dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ResponsiveApp</string>
+    <string name="disconnect_wifi_header">Do you want to disconnect and forget  \'%s\' wireless network?</string>
+    <string name="disconnect_wifi_desc">You will have connect to a different wireless or wired network in order to continue using the device.</string>
+    <string name="rename_the_room">Rename the room</string>
+    <string name="change_seat_count">Change seat count</string>
+
+    <!-- ======== Settings Tiles Screen ======== -->
+    <string name="logitech_settings">Logitech settings</string>
+    <string name="back_to_zoom_rooms">Back to Zoom Rooms</string>
+    <string name="sync_portal">Sync Portal</string>
+    <string name="updates">Updates</string>
+    <string name="display_and_audio">Display and audio</string>
+    <string name="camera">Camera</string>
+    <string name="connectivity">Connectivity</string>
+    <string name="peripherals">Peripherals</string>
+    <string name="system">System</string>
+    <string name="info">Info</string>
+
+</resources>
