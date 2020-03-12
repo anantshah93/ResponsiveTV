@@ -6,10 +6,12 @@
     <dimen name="_4dp">2dp</dimen>
     <dimen name="_5dp">2.5dp</dimen>
     <dimen name="_10dp">5dp</dimen>
+    <dimen name="_12dp">6dp</dimen>
     <dimen name="_15dp">7.5dp</dimen>
     <dimen name="_16dp">8dp</dimen>
     <dimen name="_18dp">9dp</dimen>
     <dimen name="_20dp">10dp</dimen>
+    <dimen name="_22dp">22dp</dimen>
     <dimen name="_24dp">12dp</dimen>
     <dimen name="_25dp">12.5dp</dimen>
     <dimen name="_26dp">13dp</dimen>
@@ -19,6 +21,7 @@
     <dimen name="_40dp">20dp</dimen>
     <dimen name="_45dp">22.5dp</dimen>
     <dimen name="_48dp">24dp</dimen>
+    <dimen name="_52dp">26dp</dimen>
     <dimen name="_53dp">26.5dp</dimen>
     <dimen name="_56dp">28dp</dimen>
     <dimen name="_59dp">29.5dp</dimen>
@@ -26,7 +29,9 @@
     <dimen name="_72dp">36dp</dimen>
     <dimen name="_76dp">38dp</dimen>
     <dimen name="_80dp">40dp</dimen>
+    <dimen name="_85dp">42.50dp</dimen>
     <dimen name="_100dp">50dp</dimen>
+    <dimen name="_114dp">57dp</dimen>
     <dimen name="_128dp">64dp</dimen>
     <dimen name="_140dp">70dp</dimen>
     <dimen name="_296dp">148dp</dimen>
@@ -40,6 +45,7 @@
     <!--Generic text values-->
     <dimen name="_14sp">7sp</dimen>
     <dimen name="_18sp">9sp</dimen>
+    <dimen name="_19sp">9.5sp</dimen>
     <dimen name="_20sp">10sp</dimen>
     <dimen name="_25sp">12.5sp</dimen>
     <dimen name="_28sp">14sp</dimen>
@@ -51,10 +57,6 @@
     <dimen name="_96dp">48dp</dimen>
     <dimen name="_480dp">240dp</dimen>
     <dimen name="_28dp">14dp</dimen>
-    <dimen name="_114dp">57dp</dimen>
-    <dimen name="_22dp">22dp</dimen>
-    <dimen name="_52dp">26dp</dimen>
-    <dimen name="_85dp">42.50dp</dimen>
 
 
 </resources>

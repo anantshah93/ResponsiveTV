@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generic values /4 , 640dpi -->
+    <dimen name="_1dp">0.25dp</dimen>
+    <dimen name="_2dp">0.5dp</dimen>
+    <dimen name="_4dp">1dp</dimen>
+    <dimen name="_5dp">1.25dp</dimen>
+    <dimen name="_10dp">2.5dp</dimen>
+    <dimen name="_12dp">3dp</dimen>
+    <dimen name="_15dp">3.75dp</dimen>
+    <dimen name="_16dp">4dp</dimen>
+    <dimen name="_18dp">4.5dp</dimen>
+    <dimen name="_20dp">5dp</dimen>
+    <dimen name="_22dp">5.5dp</dimen>
+    <dimen name="_24dp">6dp</dimen>
+    <dimen name="_25dp">6.25dp</dimen>
+    <dimen name="_26dp">6.5dp</dimen>
+    <dimen name="_28dp">7dp</dimen>
+    <dimen name="_30dp">7.5dp</dimen>
+    <dimen name="_32dp">8dp</dimen>
+    <dimen name="_37dp">9.25dp</dimen>
+    <dimen name="_40dp">10dp</dimen>
+    <dimen name="_45dp">11.25dp</dimen>
+    <dimen name="_48dp">12dp</dimen>
+    <dimen name="_52dp">13dp</dimen>
+    <dimen name="_53dp">13.25dp</dimen>
+    <dimen name="_56dp">14dp</dimen>
+    <dimen name="_59dp">14.75dp</dimen>
+    <dimen name="_64dp">16dp</dimen>
+    <dimen name="_72dp">18dp</dimen>
+    <dimen name="_76dp">19dp</dimen>
+    <dimen name="_80dp">20dp</dimen>
+    <dimen name="_85dp">21.25dp</dimen>
+    <dimen name="_96dp">24dp</dimen>
+    <dimen name="_100dp">25dp</dimen>
+    <dimen name="_114dp">28.5dp</dimen>
+    <dimen name="_128dp">32dp</dimen>
+    <dimen name="_140dp">35dp</dimen>
+    <dimen name="_152dp">38dp</dimen>
+    <dimen name="_296dp">74dp</dimen>
+    <dimen name="_300dp">75dp</dimen>
+    <dimen name="_346dp">86.5dp</dimen>
+    <dimen name="_360dp">90dp</dimen>
+    <dimen name="_384dp">96dp</dimen>
+    <dimen name="_444dp">111dp</dimen>
+    <dimen name="_480dp">120dp</dimen>
+    <dimen name="_520dp">130dp</dimen>
+    <dimen name="_640dp">160dp</dimen>
+    <dimen name="_1024dp">256dp</dimen>
+
+    <!--Generic text values-->
+    <dimen name="_14sp">3.58sp</dimen>
+    <dimen name="_18sp">4.5sp</dimen>
+    <dimen name="_19sp">4.75sp</dimen>
+    <dimen name="_20sp">5sp</dimen>
+    <dimen name="_25sp">6.25sp</dimen>
+    <dimen name="_28sp">7sp</dimen>
+    <dimen name="_38sp">9.5sp</dimen>
+
+
+</resources>

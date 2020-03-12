@@ -4,13 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80dp"
+        android:text="Welcome to Logitech"
+        android:textColor="@color/dark_text"
+        android:textSize="@dimen/_38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30dp"
+        android:gravity="center_horizontal"
+        android:text="This application can be use for Testing purpose only for TV device \nto check various resolutions\n Happy Testing"
+        android:textColor="@color/color_grey"
+        android:textSize="@dimen/_28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnActivity1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Activity demo 1"
+        android:textAllCaps="false"
+        android:paddingHorizontal="@dimen/_40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -18,6 +46,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnActivity2"
+        android:textAllCaps="false"
+        android:paddingHorizontal="@dimen/_40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Activity demo 2"
