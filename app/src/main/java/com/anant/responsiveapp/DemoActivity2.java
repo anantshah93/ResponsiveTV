@@ -17,8 +17,7 @@ import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_SYN
 import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_SYSTEM;
 import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_UPDATES;
 
-public class DemoActivity2 extends AppCompatActivity
-        implements SettingTileAdapter.ISettingsTileClickListener {
+public class DemoActivity2 extends AppCompatActivity implements SettingTileAdapter.ISettingsTileClickListener {
     private static final int GRID_COL = 4;
     private RecyclerView mRvSettingsTiles;
     private RecyclerView.Adapter mSettingsTileAdapter;
@@ -58,6 +57,7 @@ public class DemoActivity2 extends AppCompatActivity
                 new SettingsTileModel(this, TILE_SYSTEM, SettingsTileModel.Status.ERROR);
         SettingsTileModel tile8 =
                 new SettingsTileModel(this, TILE_INFO, SettingsTileModel.Status.ERROR);
+
         mSettingTileList.add(tile1);
         mSettingTileList.add(tile2);
         mSettingTileList.add(tile3);
@@ -66,6 +66,7 @@ public class DemoActivity2 extends AppCompatActivity
         mSettingTileList.add(tile6);
         mSettingTileList.add(tile7);
         mSettingTileList.add(tile8);
+
     }
 
     @Override

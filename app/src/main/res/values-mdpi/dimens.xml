@@ -48,5 +48,11 @@
     <dimen name="_38sp">38sp</dimen>
     <dimen name="_520dp">520dp</dimen>
     <dimen name="_96dp">96dp</dimen>
+    <dimen name="_480dp">480dp</dimen>
+    <dimen name="_28dp">28dp</dimen>
+    <dimen name="_114dp">114dp</dimen>
+    <dimen name="_22dp">22dp</dimen>
+    <dimen name="_52dp">52dp</dimen>
+    <dimen name="_85dp">85dp</dimen>
 
 </resources>

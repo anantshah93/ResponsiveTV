@@ -68,7 +68,7 @@ public class SettingTileAdapter
     @Override
     public SettingsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.grid_item_settings_tap, parent, false);
+        View view = inflater.inflate(R.layout.grid_item_settings, parent, false);
         return new SettingsViewHolder(view);
     }
 
