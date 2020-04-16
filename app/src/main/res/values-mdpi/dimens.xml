@@ -1003,13 +1003,58 @@
     <dimen name="_1024dp">1024dp</dimen>
 
     <!--Generic text values-->
-    <dimen name="_14sp">14sp</dimen>
-    <dimen name="_18sp">18sp</dimen>
-    <dimen name="_19sp">19sp</dimen>
-    <dimen name="_20sp">20sp</dimen>
-    <dimen name="_25sp">25sp</dimen>
-    <dimen name="_28sp">28sp</dimen>
-    <dimen name="_38sp">38sp</dimen>
+    <dimen name="_8sp">8.0sp</dimen>
+    <dimen name="_9sp">9.0sp</dimen>
+    <dimen name="_10sp">10.0sp</dimen>
+    <dimen name="_11sp">11.0sp</dimen>
+    <dimen name="_12sp">12.0sp</dimen>
+    <dimen name="_13sp">13.0sp</dimen>
+    <dimen name="_14sp">14.0sp</dimen>
+    <dimen name="_15sp">15.0sp</dimen>
+    <dimen name="_16sp">16.0sp</dimen>
+    <dimen name="_17sp">17.0sp</dimen>
+    <dimen name="_18sp">18.0sp</dimen>
+    <dimen name="_19sp">19.0sp</dimen>
+    <dimen name="_20sp">20.0sp</dimen>
+    <dimen name="_21sp">21.0sp</dimen>
+    <dimen name="_22sp">22.0sp</dimen>
+    <dimen name="_23sp">23.0sp</dimen>
+    <dimen name="_24sp">24.0sp</dimen>
+    <dimen name="_25sp">25.0sp</dimen>
+    <dimen name="_26sp">26.0sp</dimen>
+    <dimen name="_27sp">27.0sp</dimen>
+    <dimen name="_28sp">28.0sp</dimen>
+    <dimen name="_29sp">29.0sp</dimen>
+    <dimen name="_30sp">30.0sp</dimen>
+    <dimen name="_31sp">31.0sp</dimen>
+    <dimen name="_32sp">32.0sp</dimen>
+    <dimen name="_33sp">33.0sp</dimen>
+    <dimen name="_34sp">34.0sp</dimen>
+    <dimen name="_35sp">35.0sp</dimen>
+    <dimen name="_36sp">36.0sp</dimen>
+    <dimen name="_37sp">37.0sp</dimen>
+    <dimen name="_38sp">38.0sp</dimen>
+    <dimen name="_39sp">39.0sp</dimen>
+    <dimen name="_40sp">40.0sp</dimen>
+    <dimen name="_41sp">41.0sp</dimen>
+    <dimen name="_42sp">42.0sp</dimen>
+    <dimen name="_43sp">43.0sp</dimen>
+    <dimen name="_44sp">44.0sp</dimen>
+    <dimen name="_45sp">45.0sp</dimen>
+    <dimen name="_46sp">46.0sp</dimen>
+    <dimen name="_47sp">47.0sp</dimen>
+    <dimen name="_48sp">48.0sp</dimen>
+    <dimen name="_49sp">49.0sp</dimen>
+    <dimen name="_50sp">50.0sp</dimen>
+    <dimen name="_51sp">51.0sp</dimen>
+    <dimen name="_52sp">52.0sp</dimen>
+    <dimen name="_53sp">53.0sp</dimen>
+    <dimen name="_54sp">54.0sp</dimen>
+    <dimen name="_55sp">55.0sp</dimen>
+    <dimen name="_56sp">56.0sp</dimen>
+    <dimen name="_57sp">57.0sp</dimen>
+    <dimen name="_58sp">58.0sp</dimen>
+    <dimen name="_59sp">59.0sp</dimen>
 
 
 </resources>

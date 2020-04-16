@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.e(TAG, "getDensity:" + getDensity(this));
         Log.e(TAG, "getDensityName:" + getDensityName(this));
 
-        getDimens();
+        //getSpDimens();
     }
 
     private void getDimens() {
@@ -55,16 +55,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             e.printStackTrace();
         }
     }
+    private void getSpDimens() {
+        try {
+            float dpi = (float) 0.25;
+            //1 - mdpi, 0.67 - hdpi, 0.5 - xhdpi, 0.33 - xxhdpi, 0.25 - xxxhdpi
+            DecimalFormat formater = new DecimalFormat("#.0#");
+
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int i = 8; i < 60; i++) {
+                float finalVal = Float.parseFloat(formater.format(i * dpi));
+                String val = "<dimen name=\"_" + i + "sp\">" + finalVal + "sp</dimen>\n";
+                stringBuilder.append(val);
+            }
+
+            saveFile(stringBuilder);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     /*
     * Give permission direct from settings
     * */
     private void saveFile(StringBuilder stringBuilder) {
-        //File logFile = new File("sdcard/Download/xxxhlog.txt");
-        //File logFile = new File("sdcard/Download/xxhlog.txt");
-        //File logFile = new File("sdcard/Download/xhlog.txt");
-        //File logFile = new File("sdcard/Download/hlog.txt");
-        File logFile = new File("sdcard/Download/mlog.txt");
+        File logFile = new File("sdcard/Download/xxxhsplog.txt");
+        //File logFile = new File("sdcard/Download/xxhsplog.txt");
+        //File logFile = new File("sdcard/Download/xhsplog.txt");
+        //File logFile = new File("sdcard/Download/hsplog.txt");
+        //File logFile = new File("sdcard/Download/msplog.txt");
         if (!logFile.exists()) {
             try {
                 logFile.createNewFile();
