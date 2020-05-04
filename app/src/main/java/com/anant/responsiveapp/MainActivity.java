@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -37,7 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.e(TAG, "getDensity:" + getDensity(this));
         Log.e(TAG, "densityDpi:" + densityDpi);
         Log.e(TAG, "getDensityName:" + getDensityName(this));
-
+        Toast.makeText(this, ""+getDensity(this) +" densityDpi:"+densityDpi +" getDensityName:"+getDensityName(this),
+                Toast.LENGTH_LONG).show();
         //getDimens();
     }
 
