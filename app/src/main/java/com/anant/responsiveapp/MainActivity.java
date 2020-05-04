@@ -31,22 +31,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnActivity1.setOnClickListener(this);
         btnActivity2.setOnClickListener(this);
 
+        DisplayMetrics metrics = getResources().getDisplayMetrics();
+        int densityDpi = (int) (metrics.density * 160f);
+
         Log.e(TAG, "getDensity:" + getDensity(this));
+        Log.e(TAG, "densityDpi:" + densityDpi);
         Log.e(TAG, "getDensityName:" + getDensityName(this));
 
-        //getSpDimens();
+        //getDimens();
     }
 
     private void getDimens() {
         try {
-            float dpi = (float) 1;
-            //1 - mdpi, 0.67 - hdpi, 0.5 - xhdpi, 0.33 - xxhdpi, 0.25 - xxxhdpi
+
+
+            float dpi =
+                    (float) 1;//1 - mdpi, 0.67 - hdpi, 0.5 - xhdpi, 0.33 - xxhdpi, 0.25 - xxxhdpi
             DecimalFormat formater = new DecimalFormat("#.0#");
 
+            dpi = 213;
+
             StringBuilder stringBuilder = new StringBuilder();
-            for (int i = 1; i < 1000; i++) {
-                float finalVal = Float.parseFloat(formater.format(i * dpi));
-                String val = "<dimen name=\"_" + i + "dp\">" + finalVal + "dp</dimen>\n";
+//            for (int i = 1; i < 1000; i++) {
+            for (int i = 8; i < 60; i++) {
+
+//                float finalVal = Float.parseFloat(formater.format(i * dpi));
+                //String val = "<dimen name=\"_" + i + "dp\">" + finalVal + "dp</dimen>\n";
+                float dp = Float.parseFloat(formater.format(i * 160 / dpi));
+
+                //String val = "<dimen name=\"_" + i + "dp\">" + dp + "dp</dimen>\n";
+                String val = "<dimen name=\"_" + i + "sp\">" + dp + "dp</dimen>\n";
                 stringBuilder.append(val);
             }
 
@@ -55,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             e.printStackTrace();
         }
     }
+
     private void getSpDimens() {
         try {
             float dpi = (float) 0.25;
@@ -75,10 +90,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     /*
-    * Give permission direct from settings
-    * */
+     * Give permission direct from settings
+     * */
     private void saveFile(StringBuilder stringBuilder) {
-        File logFile = new File("sdcard/Download/xxxhsplog.txt");
+        File logFile = new File("sdcard/Download/tvdpisp.txt");
+        //File logFile = new File("sdcard/Download/tvdpi.txt");
+        //File logFile = new File("sdcard/Download/xxxhsplog.txt");
         //File logFile = new File("sdcard/Download/xxhsplog.txt");
         //File logFile = new File("sdcard/Download/xhsplog.txt");
         //File logFile = new File("sdcard/Download/hsplog.txt");
@@ -117,6 +134,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (density >= 1.5) {
             return "hdpi";
         }
+        if (density >= 1.3) {
+            return "tvdpi";
+        }
         if (density >= 1.0) {
             return "mdpi";
         }
@@ -137,6 +157,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 r = "ldpi";
             } else if (metrics.densityDpi <= DisplayMetrics.DENSITY_MEDIUM) {
                 r = "mdpi";
+            } else if (metrics.densityDpi <= DisplayMetrics.DENSITY_TV) {
+                r = "tvdpi";
             } else if (metrics.densityDpi <= DisplayMetrics.DENSITY_HIGH) {
                 r = "hdpi";
             } else if (metrics.densityDpi <= DisplayMetrics.DENSITY_XHIGH) {
