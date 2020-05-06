@@ -5,7 +5,6 @@
     <string name="rename_the_room">Rename the room</string>
     <string name="change_seat_count">Change seat count</string>
 
-    <!-- ======== Settings Tiles Screen ======== -->
     <string name="logitech_settings">Logitech settings</string>
     <string name="back_to_zoom_rooms">Back to Zoom Rooms</string>
     <string name="sync_portal">Sync Portal</string>
