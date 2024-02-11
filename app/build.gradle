@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.anant.responsiveapp"
+        applicationId "com.anant.responsivetv"
         minSdkVersion 24
         targetSdkVersion 28
         versionCode 1

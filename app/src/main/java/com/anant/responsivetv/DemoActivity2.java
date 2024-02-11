@@ -1,4 +1,4 @@
-package com.anant.responsiveapp;
+package com.anant.responsivetv;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -8,14 +8,14 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_CAMERA;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_CONNECTIVITY;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_DISPLAY_AND_AUDIO;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_INFO;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_PERIPHERALS;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_SYNC_PORTAL;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_SYSTEM;
-import static com.anant.responsiveapp.SettingsTileModel.SettingTileType.TILE_UPDATES;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_CAMERA;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_CONNECTIVITY;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_DISPLAY_AND_AUDIO;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_INFO;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_PERIPHERALS;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_SYNC_PORTAL;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_SYSTEM;
+import static com.anant.responsivetv.SettingsTileModel.SettingTileType.TILE_UPDATES;
 
 public class DemoActivity2 extends AppCompatActivity implements SettingTileAdapter.ISettingsTileClickListener {
     private static final int GRID_COL = 4;

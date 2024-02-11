@@ -1,4 +1,4 @@
-package com.anant.responsiveapp;
+package com.anant.responsivetv;
 
 import org.junit.Test;
 
